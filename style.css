@@ -1,0 +1,313 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.div-doctor {
+    display: inline-block;
+    margin-left: 0px;
+    vertical-align:bottom;
+}
+
+.heading-hospital {
+    font-style: Roboto;
+    font-size: 40px;
+    border: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 400px;
+}
+
+.doctor-img {
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 18px;
+    margin-right: 10px;
+}
+
+.div-heading {
+   display: inline-block;
+}
+
+.div-login {
+   display: inline-block;
+}
+
+.login {
+    margin-left: 250px;
+    border: none;
+    background-color: white;
+    color: #007bff;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: 2ms;
+}
+
+.login:hover {
+    background-color: rgb(33, 240, 33);
+    color: white;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.15);
+}
+
+.a-login {
+    color:#007bff;
+    text-decoration: none;
+}
+
+.a-login:hover {
+    color: white;
+}
+
+.div-signup {
+    display: inline-block;
+}
+
+.signup {
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+    color: #007bff;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: 2ms;
+}
+
+.signup:hover {
+    background-color: rgb(33, 240, 33);
+    color: white;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.15);
+}
+
+.dropbtn {
+    background-color:white;
+    color: rgb(16, 133, 230);
+    margin-left: 20px;
+    margin-right: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    vertical-align: bottom;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+.home {
+    display: inline-block;
+    width: 80px;
+}
+
+.hos-home {
+    color: white;
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: bottom;
+}
+
+.about {
+    display: inline-block;
+    width: 80px;
+}
+
+.hos-about {
+    color: white;
+    text-decoration: none;
+    vertical-align: bottom;
+    font-size: 22px;
+    font-family: roboto;
+
+}
+
+.contact {
+    display:inline-block;
+    width: 80px;
+}
+
+.hos-contact {
+    color: white;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 22px;
+    vertical-align: bottom;
+
+}
+
+.all {
+    width: 650px;
+    margin-right: 1000px;
+}
+
+main {
+    padding: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#searchBtn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#searchBtn:hover {
+    background-color: #0056b3;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.15);
+}
+
+#searchBtn:active {
+    background-color: #0056b3;
+    box-shadow: 1px 4px 6px rgba(0,0,0,0.30);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin-left: 600px;
+}
+
+.contactus {
+    color: white;
+    text-decoration: none;
+
+}
