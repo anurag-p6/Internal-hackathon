@@ -40,9 +40,6 @@ h1 {
 
 .category {
     margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .dropdown-btn {
@@ -71,15 +68,6 @@ h1 {
     padding-right: 10px;
 }
 
-.category-image img {
-    height: auto;
-    width: 180px;
-    object-fit: contain;
-    padding: 5px;
-    border: 2px solid rgb(234, 77, 46);
-    border-radius: 10px;
-}
-
 .subcategory-list {
     list-style: none;
     padding: 0;
@@ -87,11 +75,17 @@ h1 {
     display: none; /* Initially hidden */
 }
 
+.category:hover .subcategory-list {
+    display: flex;
+    flex-direction: column;
+}
+
 .subcategory-list li {
     padding: 10px;
     background-color: #a9d5ab;
     margin-bottom: 5px;
     cursor: pointer;
+    width: 400px;
 }
 
 .subcategory-list li:hover {
